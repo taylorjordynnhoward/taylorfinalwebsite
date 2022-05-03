@@ -43,7 +43,7 @@
 /*center intro sentence*/
 .h1 {
   text-align: center;
-  color: #EFA0D5
+  color: #EFA0D5;
 }
 /* putting text next to picture (float)*/
 .container{
@@ -66,4 +66,34 @@ img {
   text-align: justify;
   font-family: sans-serif;
   color: #ba020e;
+}
+
+/* contact me page form coloring*/
+.body {
+    color: #ba020e;
+}
+
+.body a:visited {
+ color: #EFA0D5;
+}
+
+.body a{
+  color: #EFA0D5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
