@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #E6323E;
+  background-color: #c70e1a;
   padding: 30px;
   position: sticky;
   top: 0;
@@ -43,7 +43,7 @@
 /*center intro sentence*/
 .h1 {
   text-align: center;
-  color:
+  color: #EFA0D5
 }
 /* putting text next to picture (float)*/
 .container{
@@ -62,4 +62,5 @@ img {
 .text {
   text-align: justify;
   font-family: sans-serif;
+  color: #ba020e;
 }
