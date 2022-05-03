@@ -48,18 +48,21 @@
 /* putting text next to picture (float)*/
 .container{
   /*margin: 150px auto;*/
-  height: 100%
+  display: flex;
+  height: 100%;
   width: 100%;
   padding: 0px;
 }
 img {
+  display: flex;
   float: left;
-  width: 200px;
+  width: 400px;
   height: 200px;
   padding: 0 10px 0px;
-  top: -125px;
 }
 .text {
+  display: flex;
+  padding: 0px 30px;
   text-align: justify;
   font-family: sans-serif;
   color: #ba020e;
